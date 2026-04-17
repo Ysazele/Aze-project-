@@ -1,0 +1,134 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>CarlJames Da One</title>
+</head>
+<body>
+	<div class="box1" id="ambot">
+		<div class="box2" id="ahak">
+			<h1>LOG-IN</h1>
+			<input type="text" name="" id="" value="" placeholder="First Name" required/>
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" /><input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" />
+			<input type="text" name="" id="" value="" /><input type="text" name="" id="" value="" />
+			
+			<div class="btn" id="btn1">
+		      <button type="submit">Ayay</button>
+	      </div>
+		</div>
+	</div>
+	
+	
+	<div class="main">
+	    <div class="taya">
+		   <button type="button" onclick="shesh()">Click Ni oh!!!!</button>
+	    </div>
+	</div>
+	
+	
+	<script>
+		function shesh(){
+			document.getElementById("ambot").style.display ="flex";
+			document.getElementById("ahak").style.display ="flex";
+			document.getElementById("btn1").style.display ="flex";
+			
+		}
+	</script>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			height: 100vh;
+			width: 100%;
+		}
+		
+		.main {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
+		
+		.taya button {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 150px;
+			height: 40px;
+			border: none;
+			border-radius: 10px;
+			box-shadow: 0px 0px 5px;
+		}
+		
+		.box1 {
+			display: none;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			background-color: gray;
+		}
+		
+		.box2 {
+			flex-direction: column;
+			display: none;
+			align-items: center;
+			justify-content: center;
+			width: 300px;
+			height: max-content;
+			box-shadow: 0px 0px 30px yellow;
+			border-radius: 20px;
+			padding: 20px;
+		}
+		
+		.box2 h1 {
+			text-align: center;
+			color: white;
+		}
+		
+		.box2 input {
+			height: 30px;
+			width: 200px;
+			background: none;
+			margin-bottom: 15px;
+			border-radius: 10px;
+			border: solid 1px white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+		}
+		
+		.btn {
+			display: none;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.btn button {
+         display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 30px;
+			background: none;
+			border: none;
+			border-radius: 7px;
+			width: 100px;
+			box-shadow: 0px 0px 10px yellow;
+		}
+		
+		.btn button:hover {
+			cursor: pointer;
+			box-shadow: 0px 0px 10px;
+			scale: 1.2;
+			transition: all ease-in-out 0.5s;
+		}
+	</style>
+</body>
+</html>
